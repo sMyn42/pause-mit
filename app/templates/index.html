@@ -13,14 +13,17 @@
         <title>PauseMIT_main_page</title>
     </head>
     <body>
-        <div class="top">
-            <div class="frame">
+        <div class="container-fluid">
+            <div class="d-flex justify-content-center mt-3">
                 <iframe  width="560" height="315" src="https://www.youtube.com/embed/nJcTPpVlsLs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-
-            <form action="/analyze" method="get">
-                <button class="btn btn-primary" type="submit">Click here to go to other page</button>
-            </form>
+            
+            <div class="d-flex justify-content-center mt-4">
+                <form class="padding-lg" action="/analyze" method="get">
+                    <button class="btn btn-primary" type="submit">Click me to go to the other page</button>
+                </form>
+            </div>
+            
             
         </div>
        
