@@ -1,0 +1,1 @@
+SQLALCHEMY_DATABASE_URL = "postgresql://sbmynam:PurplePancakes2021@localhost/pauseDB"
